@@ -1,0 +1,26 @@
+                                                               O O P
+# Apa Itu "Object Oriented Programing" ( OOP )
+
+# Pendahuluan OOP by ( C++ )
+
+  Kenapa perlu OOP, Apakah Dasar-dasar Pemrograman ( Dasar-dasar Pemrograman pada C++ disebut "Sistem Produsural" ) C++ tidak cukup kompleks
+untuk membuat program, Ya, Karena kita perlu sebuah yang kompleks untuk membuat program. Contoh saat kita membuat aplikasi, 
+kita bisa saja menggunakan Sistem Produsural namun kemungkinan Error akan meningkat, karena bisa saja saat saat suatu data masuk ke dalam 
+yang bukan untuk fungsinya.
+contoh:
+
+Data Siswa (struct)            | Data Dosen
+Siswa {                          Dosen {
+  string nama; ( string )          string nama; ( string )
+  string nim; ( string )           string jurusan; ( string )
+  string jurusan; ( string )       int no; ( int )
+  int nilai; ( int )             }
+}
+Fungsi untuk display
+Void Display(struct &data){"cout"};
+
+Bisa saja data dosen mengakses fungsi yang seharusnya fungsi untuk siswa namun data dosen yang masuk, dan terjadi eror karena data tidak valid
+. Si siswa yang mempunyai nilai, namun si data Dosen tidak mempunyai sehingga terjadi eror. Maka dari itu kita perlu sebuah cara yang kompleks
+Maka terbentuklah OOP yang memudahkan untuk mengatur kode program kita agar lebih rapih dan berfungsi yang semestinya.
+
+
