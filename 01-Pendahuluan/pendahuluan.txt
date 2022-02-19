@@ -1,26 +1,30 @@
-                                                               O O P
-# Apa Itu "Object Oriented Programing" ( OOP )
+# Object Oriented Programing / Pemrograman Berbasis Objek ( OOP )
 
 # Pendahuluan OOP by ( C++ )
 
-  Kenapa perlu OOP, Apakah Dasar-dasar Pemrograman ( Dasar-dasar Pemrograman pada C++ disebut "Sistem Produsural" ) C++ tidak cukup kompleks
-untuk membuat program, Ya, Karena kita perlu sebuah yang kompleks untuk membuat program. Contoh saat kita membuat aplikasi, 
-kita bisa saja menggunakan Sistem Produsural namun kemungkinan Error akan meningkat, karena bisa saja saat saat suatu data masuk ke dalam 
-yang bukan untuk fungsinya.
-contoh:
+Kenapa Perlu OOP ?
+Apakah Tidak Cukup jika menggunakan metode prosedural ?
 
-Data Siswa (struct)            | Data Dosen
-Siswa {                          Dosen {
-  string nama; ( string )          string nama; ( string )
-  string nim; ( string )           string jurusan; ( string )
-  string jurusan; ( string )       int no; ( int )
-  int nilai; ( int )             }
-}
-Fungsi untuk display
-Void Display(struct &data){"cout"};
+# Dasar-dasar Pemrograman C++ itu memprogram menggunakan cara berfikir, atau PARADIGMA.
+  atau bisa di sebut PROSEDURAL dengan prosedur. Namun pada jika kita menggunakan metode
+  Prosedural untuk memprogram memungkinkan program kita terjadinya ERROR, kenapa ?. Karena
+  bisa jadi suatu objek/data mengakses fungsi yang bukan untuk dirinya karena bisa jadi 
+  ada fungsi yang General/Umum. Maka kita perlu sesuatu yang kompleks agar bisa memprogram 
+  sesuatu yang kompleks dan menejemen nya bisa rapih dak mengurangi terjadinya ERROR.
+  
+  "Maka Muncul Ide Kenapa Object dan Fungsinya Tidak Kita Jadikan Satu Saja Agar Data Hanya
+   Bisa Mengakses Fungsi Untuk Dirinya, Sehingga Objek Lain Tidak Bisa Mengakses Fungsi Yang 
+   Bukan Untuk Dirinya"
 
-Bisa saja data dosen mengakses fungsi yang seharusnya fungsi untuk siswa namun data dosen yang masuk, dan terjadi eror karena data tidak valid
-. Si siswa yang mempunyai nilai, namun si data Dosen tidak mempunyai sehingga terjadi eror. Maka dari itu kita perlu sebuah cara yang kompleks
-Maka terbentuklah OOP yang memudahkan untuk mengatur kode program kita agar lebih rapih dan berfungsi yang semestinya.
-
-
+# Muncullah OOP
+  Entitas pada OOP / Struktur pada OOP
+  
+  terdiri dari:
+  Object => Atribut / Data Member
+  Function => Method / Member Function
+  
+  Prosedural        |    Pada OOP
+  int nilai;             Siswa Kipli
+  
+  int => Tipe data       Siswa => Class
+  nilai => Variabel      Kipli => Objek
