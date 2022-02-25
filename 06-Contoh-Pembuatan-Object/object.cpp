@@ -49,5 +49,7 @@ int main (int argc, char const* argv[]){
   (*object4).display(); /* dengan dereference */
   object4->display(); /* dengan arrow */
   
+  delete object4;
+  
   return 0;
 }
