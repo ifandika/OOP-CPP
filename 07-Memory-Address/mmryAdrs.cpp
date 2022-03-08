@@ -29,7 +29,7 @@ class Siswa{
 
 int main (int argc, char const* argv[]){
   
-  // memory stack = memory seperti tupukan, memiliki ruang yang terbatas, address / data akan terhapua secara otomatis 
+  // memory stack = memory seperti tupukan, memiliki ruang yang terbatas, address / data akan terhapus secara otomatis 
   // . jika terlalu banyak digunakan maka akan menyebabkan stack overflow
   // memory heap = free memory, yaitu sebuah kotak / blok memory, memiliki kapasitas yang besar, penghapusan address / data harus manual
  

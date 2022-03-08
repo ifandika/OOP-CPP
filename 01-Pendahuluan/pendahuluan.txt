@@ -6,7 +6,7 @@ Kenapa Perlu OOP ?
 Apakah Tidak Cukup jika menggunakan metode prosedural ?
 
 # Dasar-dasar Pemrograman C++ itu memprogram menggunakan cara berfikir, atau PARADIGMA.
-  atau bisa di sebut PROSEDURAL dengan prosedur. Namun pada jika kita menggunakan metode
+  dengan cara PROSEDURAL dengan prosedur. Namun pada jika kita menggunakan metode
   Prosedural untuk memprogram memungkinkan program kita terjadinya ERROR, kenapa ?. Karena
   bisa jadi suatu objek/data mengakses fungsi yang bukan untuk dirinya karena bisa jadi 
   ada fungsi yang General/Umum. Maka kita perlu sesuatu yang kompleks agar bisa memprogram 

@@ -32,7 +32,7 @@ class Player{
         }
         
         // setter = untuk me write data ke dalam class
-        //  contoh kita ingin merubah data / attribut pada class namun tidak merubah dari luar class
+        //  contoh kita ingin merubah data / attribut pada class namun tidak merubah secara langsung atau dari luar class
         //  maka kita menggunakan setter
         void fight(int expValue){
             int maxExp = 100; // batas max exp untuk level up
